@@ -6,4 +6,4 @@ To run the scripts, you need to have Python installed and install the following 
 Download the required RAW data (.gpkg file) from this link and place them in the same folder as the scripts: 
 https://opendata.swiss/en/dataset/windatlas-schweiz-jahresmittel-der-modellierten-windgeschwindigkeit-und-windrichtung-in-50-m-ho
 
-## Follow the steps of the word file
+## Follow the steps of the word file (Guide.docx)
