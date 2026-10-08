@@ -44,7 +44,7 @@ p_table = np.array([0, 0, 0, 1.2, 13.4, 33.6, 66.4, 109.9, 160.8, 217.5, 281.6, 
 
 def get_power_from_curve(v_array):
   power = np.interp(v_array, u_table, p_table, left=0.0, right=300.0)
-  return np.where(v_array > 25.0, 0.0, power)
+  return np.where(v_array > 16.0, 0.0, power)
 
 # NEW HEIGHT PARAMETERS
 hub_height = 29.0      # The wind turbine hub height
